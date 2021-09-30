@@ -1,95 +1,94 @@
-
 /* <--- COMMONS ---> */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* COLOR PALETTE */
-    /* header D881E0 */
-    /* jumbotron E0D686 */
-    /* container B1CEE4 */
-    /* main 3686F7 */
-    /* footer 7D27F5 */
+  /* header D881E0 */
+  /* jumbotron E0D686 */
+  /* container B1CEE4 */
+  /* main 3686F7 */
+  /* footer 7D27F5 */
 
 body{
-    padding: 20px 150px;
+  padding: 20px 100px;
 }
 
-  /* <--- HEADER --->   */
-  .header-top{
-    height: 130px;
-    background-color: #D881E0;
-  }
+/* <--- HEADER --->   */
+.header-top{
+  height: 110px;
+  background-color: #D881E0;
+}
 
-  .header-bottom{
-    height: 450px;
-    background-color: #E0D686;
-    margin: 30px 0;
-  }
+.header-bottom{
+  height: 420px;
+  background-color: #E0D686;
+  margin: 20px 0;
+}
 
-  /* <--- MAIN --->   */
-  main{
-    background-color: #3686F7;
-  }
+/* <--- MAIN --->   */
+main{
+  background-color: #3686F7;
+}
 
-  .left{
-      float: left;
-  }
+.left{
+    float: left;
+}
 
-  .right {
-      float: right;
-  }
+.right {
+    float: right;
+}
 
-  .clearfix::after{
-      content: "";
-      display: table;
-      clear: both;
-  }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
-  .bottom1-main{
-      margin: 2% 0;
-      width: 20%;
-  }
+.bottom1-main{
+    margin: 2.5% 0;
+    width: 20%;
+}
 
-  .bottom2-main{
-    margin: 2% 2%;
-    width: 56%;
-  }
+.bottom2-main{
+  margin: 2.5% 2%;
+  width: 56%;
+}
 
-  .bottom3-main{
-      margin: 2% 0;
-      width: 20%;
-  }
+.bottom3-main{
+    margin: 2.5% 0;
+    width: 20%;
+}
 
 
-  /* <--- FOOTER --->   */
+/* <--- FOOTER --->   */
 
-  footer{
-      height: 60px;
-      background-color: #7D27F5;
-      margin-top: 10px;
+footer{
+    height: 50px;
+    background-color: #7D27F5;
+    margin-top: 10px;
 
-  }
+}
 
-  /* <--- DEBUG ---> */
+/* <--- DEBUG ---> */
 
-  .debug .top-main {
-      height: 80px;
-      background-color: #B1CEE4;
-  }
-
-  .debug .bottom1-main {
-    height: 500px;
+.debug .top-main {
+    height: 70px;
     background-color: #B1CEE4;
-    }
+}
 
-    .debug .bottom2-main {
-    height: 500px;
-    background-color: #B1CEE4;
-    }
+.debug .bottom1-main {
+  height: 450px;
+  background-color: #B1CEE4;
+  }
 
-    .debug .bottom3-main {
-    height: 500px;
-    background-color: #B1CEE4;
-    }
+  .debug .bottom2-main {
+  height: 450px;
+  background-color: #B1CEE4;
+  }
+
+  .debug .bottom3-main {
+  height: 450px;
+  background-color: #B1CEE4;
+  }
