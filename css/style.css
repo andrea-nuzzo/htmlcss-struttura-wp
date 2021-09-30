@@ -1,13 +1,30 @@
-*{
+
+/* <--- COMMONS ---> */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
-
 /* COLOR PALETTE */
     /* header D881E0 */
     /* jumbotron E0D686 */
     /* container B1CEE4 */
     /* main 3686F7 */
     /* footer 7D27F5 */
+
+body{
+    padding: 20px 100px;
+}
+
+  /* <--- HEADER --->   */
+ 
+  .header-top{
+    height: 100px;
+    background-color: #D881E0;
+  }
+
+  .header-bottom{
+    height: 400px;
+    background-color: #E0D686;
+    margin: 20px 0;
+  }
