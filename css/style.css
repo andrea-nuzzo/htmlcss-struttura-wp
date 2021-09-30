@@ -17,7 +17,6 @@ body{
 }
 
   /* <--- HEADER --->   */
- 
   .header-top{
     height: 100px;
     background-color: #D881E0;
@@ -28,3 +27,69 @@ body{
     background-color: #E0D686;
     margin: 20px 0;
   }
+
+  /* <--- MAIN --->   */
+  main{
+    background-color: #3686F7;
+  }
+
+  .left{
+      float: left;
+  }
+
+  .right {
+      float: right;
+  }
+
+  .clearfix::after{
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  .bottom1-main{
+      margin: 2% 0;
+      width: 20%;
+  }
+
+  .bottom2-main{
+    margin: 2% 2%;
+    width: 56%;
+  }
+
+  .bottom3-main{
+      margin: 2% 0;
+      width: 20%;
+  }
+
+
+  /* <--- FOOTER --->   */
+
+  footer{
+      height: 50px;
+      background-color: #7D27F5;
+      margin-top: 10px;
+
+  }
+
+  /* <--- DEBUG ---> */
+
+  .debug .top-main {
+      height: 50px;
+      background-color: #B1CEE4;
+  }
+
+  .debug .bottom1-main {
+    height: 400px;
+    background-color: #B1CEE4;
+    }
+
+    .debug .bottom2-main {
+    height: 400px;
+    background-color: #B1CEE4;
+    }
+
+    .debug .bottom3-main {
+    height: 400px;
+    background-color: #B1CEE4;
+    }
