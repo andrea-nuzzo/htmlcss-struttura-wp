@@ -13,19 +13,19 @@
     /* footer 7D27F5 */
 
 body{
-    padding: 20px 100px;
+    padding: 20px 150px;
 }
 
   /* <--- HEADER --->   */
   .header-top{
-    height: 100px;
+    height: 130px;
     background-color: #D881E0;
   }
 
   .header-bottom{
-    height: 400px;
+    height: 450px;
     background-color: #E0D686;
-    margin: 20px 0;
+    margin: 30px 0;
   }
 
   /* <--- MAIN --->   */
@@ -66,7 +66,7 @@ body{
   /* <--- FOOTER --->   */
 
   footer{
-      height: 50px;
+      height: 60px;
       background-color: #7D27F5;
       margin-top: 10px;
 
@@ -75,21 +75,21 @@ body{
   /* <--- DEBUG ---> */
 
   .debug .top-main {
-      height: 50px;
+      height: 80px;
       background-color: #B1CEE4;
   }
 
   .debug .bottom1-main {
-    height: 400px;
+    height: 500px;
     background-color: #B1CEE4;
     }
 
     .debug .bottom2-main {
-    height: 400px;
+    height: 500px;
     background-color: #B1CEE4;
     }
 
     .debug .bottom3-main {
-    height: 400px;
+    height: 500px;
     background-color: #B1CEE4;
     }
